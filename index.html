@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="box p-5 mb-5">
+
+    </header>
+
+    <div class="container">
+
+        <h1 class="mb-4 size-1 line-height-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!
+        </h1>
+        <h2 class="mb-4 size-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!</h2>
+        <h3 class="mb-4 size-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!</h3>
+        <h4 class="mb-4 size-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!</h4>
+        <h5 class="mb-4 size-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!</h5>
+        <h6 class="mb-4 size-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, nam!</h6>
+
+
+        <section class="seccion mb-3">
+
+
+            <div class="card box">
+                <img src="https://i.picsum.photos/id/973/536/354.jpg?hmac=9m2LTFMqLEEfHYc4fab0grXDEwmcLzJ7qEEbVmuvcbU"
+                    alt="">
+                <div class="card__body">
+                    <h3 class="card__body__title">Lorem ipsum dolor sit amet.</h3>
+                    <p class="card__body__text">Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a>
+                        elit. nostrum accusamus quis, molestiae ducimus. Velit vel voluptatem non maiores sequi dicta
+                        placeat.</p>
+
+                    <div class="card__footer text-right">
+                        <button class="btn"><i class="fas fa-times"></i></button>
+                        <a class="btn"><i class="fab fa-amazon"></i> Amazon</a>
+                        <button class="btn"><i class="fab fa-amazon"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box p-4 w ml-3">
+                <div class="grupo-input">
+                    <label for="l1">Label 1</label>
+                    <input type="text" id="l1" class="input">
+                    <span class="input-info">* no puede estar vacio</span>
+                </div>
+                <div class="grupo-input">
+                    <label for="l2">Label 2</label>
+                    <input type="text" id="l2" class="input">
+                </div>
+                <div class="grupo-input">
+                    <label for="l3">Label 3</label>
+                    <input type="text" id="l3" class="input">
+                </div>
+                <label for="seguro" class="checkbox disabled mb-4">
+                    <input type="checkbox" name="" id="seguro" disabled>
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-checked fas fa-check"></span>
+                    Si acepto
+                </label>
+
+                <label for="seguro1" class="checkbox mb-4">
+                    <input type="checkbox" name="" id="seguro1">
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-checked fas fa-check"></span>
+                    Si acepto
+                </label>
+
+                <label for="seguro2" class="checkbox mb-4">
+                    <input type="checkbox" name="" id="seguro2">
+                    <span class="checkbox-custom"></span>
+                    <span class="checkbox-checked fas fa-check"></span>
+                    Si acepto
+                </label>
+                <div>---</div>
+                <label for="escoje" class="radio mb-4">
+                    <input type="radio" name="escoje" id="escoje">
+                    <span class="radio-custom"></span>
+                    <span class="radio-checked"></span>
+                    Si acepto
+                </label>
+                <label for="escoje1" class="radio disabled mb-4">
+                    <input type="radio" name="escoje" id="escoje1" disabled>
+                    <span class="radio-custom"></span>
+                    <span class="radio-checked"></span>
+                    Si acepto
+                </label>
+                <label for="escoje2" class="radio mb-4">
+                    <input type="radio" name="escoje" id="escoje2">
+                    <span class="radio-custom"></span>
+                    <span class="radio-checked"></span>
+                    Si acepto
+                </label>
+                <div>----</div>
+                <div class="grupo-input">
+                    <a class="btn"><i class="fab fa-amazon"></i> Amazon</a>
+                </div>
+
+                <div class="select">
+                    <select>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <div class="select-dropdown">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="alert success box py-4 mb-3">
+            <i class="fas fa-check icon"></i>
+            <i class="fas fa-times close"></i>
+            <p>Lorem ipsum, dolor sit amet <kbd>CTRL+F1</kbd> adipisicing elit. Animi fuga nobis at delectus dolorem, iure
+                expedita nostrum, sit</p>
+        </div>
+        <div class="alert warning box py-4 mb-3">
+            <i class="fas fa-exclamation-triangle icon"></i>
+            <i class="fas fa-times close"></i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi fuga nobis at delectus dolorem, iure
+                expedita nostrum, sit</p>
+        </div>
+        <div class="alert danger box py-4 mb-3">
+            <i class="fas fa-exclamation-triangle icon"></i>
+            <i class="fas fa-times close"></i>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi fuga nobis at delectus dolorem, iure
+                expedita nostrum, sit</p>
+        </div>
+
+        <p>
+            <b>This text is bold</b> <strong>This text is important!</strong> <i>This text is italic</i> <em>This text
+                is emphasized</em> <small>This is some smaller text.</small>
+        </p>
+        <p>Do not forget to buy <mark>milk</mark> today.</p>
+        <p>My favorite color is <del>blue</del> red.</p>
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+        <p>This is <sub>subscripted</sub> text.</p>
+        <p>This is <sup>superscripted</sup> text.</p>
+        <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,
+            WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5
+            million globally.
+        </blockquote>
+
+        <p>curso de html <code>println!("Hola, Mundo!")</code> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Vel eligendi ab quia quod repellat, neque mollitia enim, consequuntur debitis quisquam iste quis adipisci
+            ad, officia nostrum voluptatibus hic temporibus harum. Hola como estas me comporto como quiera</p>
+        <pre>
+            <code> 
+                :root {
+                    --base-1: #d6dbdf;
+                    --base-2: rgba(255, 255, 255, 0.50);
+                    --base-3: rgba(255, 255, 255, 0.65);
+                    --base-4: rgba(0, 0, 0, 0.05);
+                    --base-5: rgba(0, 0, 0, 0.125);  
+                    
+                    --color-1: #273746;
+                    --color-2: #780cb6;
+                    --color-3: #a710ff;
+                    
+                    --text-small: 0.9rem;
+                }
+            </code>
+        </pre>
+
+
+        <table class="box my-5">
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$80</td>
+                    <td>February</td>
+                    <td>$80</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Sum</td>
+                    <td>$180</td>
+                    <td>Sum</td>
+                    <td>$180</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
